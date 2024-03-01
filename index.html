@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-WebPlayer : Music for everyone</title>
+    <link href="Spotify.css" rel="Stylesheet">
+    <link href="./RawFiles/logo.png" rel="icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="Stylesheet">
+</head>
+
+<body>
+    <div class="view">
+        <div class="side-bar">
+            <div class="upper">
+                <div class="Home" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="first">
+                    <div class="option">
+                        <img src="./RawFiles/library_icon.png">
+                        <p>Your Library</p>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <button type="button" class="btn ">Artists</button>
+                <div class="artist">
+                    <div class="bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="recent">
+                            <p>Recents</p>
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="detail">
+                        <img src="./RawFiles/HR.jpg">
+                        <div class="name">
+                            <h3>Himesh Reshamia</h3>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <img src="./RawFiles/rfak.jpg">
+                        <div class="name">
+                            <h3>Rahat Fateh Ali Khan</h3>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <img src="./RawFiles/at.jpg">
+                        <div class="name">
+                            <h3>Ankit Tiwari</h3>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <img src="./RawFiles/as.jpg">
+                        <div class="name">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="head">
+                <div class="icons">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="buttons">
+                    <button class="Explore"> Explore Premium </button>
+                    <button class="Install">
+                        <i class="fa-solid fa-circle-down"></i>Install App
+                    </button>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="first-row">
+                <p class="title">Recently Played</p>
+                <div class="card">
+                    <img src="./RawFiles/ani.jpg">
+                    <p class="card-title">ANIMAL</p>
+                    <p class="card-info">Manan Bhardwaj,
+
+                        Vishal Mishra,Jaani</p>
+                </div>
+            </div>
+            <div class="second-row">
+                <p class="title">How to take care of yourself in 2024</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./RawFiles/card1img.jpeg">
+                        <p class="card-title">TOP 50</p>
+                        <p></p>
+                    </div>
+                    <div class="card">
+                        <img src="./RawFiles/card2img.jpeg">
+                        <p class="card-title">MAHIYE JINNA SOHNA</p>
+                        <p class="card-info">Manan Bhardwaj,
+
+                            Vishal Mishra,Jaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="./RawFiles/card3img.jpeg">
+                        <p class="card-title">MERE PASS TUM HO</p>
+                        <p class="card-info">rahat fateh ali khan</p>
+
+
+                    </div>
+                    <div class="card">
+                        <img src="./RawFiles/card4img.jpeg">
+                        <p class="card-title">READY</p>
+                        <p class="card-info">vijay</p>
+                    </div>
+                    <div class="card">
+                        <img src="./RawFiles/card5img.jpeg">
+                        <p class="card-title">TOP GLOBAL SONGS</p>
+                        <p class="card-info">Weekly Music Charts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="music">
+                <img src="./RawFiles/ani.jpg">
+                <div class="name">
+                    <p style="font-size: 1.2rem;opacity: 1;">Arjan Velli</p>
+                    <p>Manan Bhardwaj, babbal</p>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="player">
+                <div class="btn">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward"></i>
+                    <i class="fa-regular fa-circle-play" style="opacity: 1;"></i>
+                    <i class="fa-solid fa-forward"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="bar">
+                    <span>00:00</span>
+                    <input type="range" class="progress">
+                    <span>05:10</span>
+                </div>
+            </div>
+            <div class="tools">
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" class="progress">
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
